@@ -12,4 +12,4 @@ el state de la clave msj se debe mostrar por pantalla de la siguiente manera:
 ![Ejercicio 3](./public/tp3.jpg)
 
 ### Link de Deploy:
-- [Netlify](https://lucasecapdevila-tpn2react76i.netlify.app/)
+- [Netlify](https://lucasecapdevila-tpn3react76i.netlify.app/)
