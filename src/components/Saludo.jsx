@@ -1,8 +1,14 @@
-import React from 'react'
+import { useState } from 'react'
+import { Button } from 'react-bootstrap'
 
-function Saludo({saludoProps}) {
+const Saludo = ({saludoProps}) => {
+  const [mensaje, setMensaje] = useState('')
+
   return (
-    <h1 className='text-center my-4'>Hello {saludoProps} !</h1>
+    <section className='text-center'>
+      <h1 className='my-4'>Hello {saludoProps} {mensaje}!</h1>
+      <Button onClick={() => setMensaje('(from changed state)')} variant='success'>Hazme click !</Button>
+    </section>
   )
 }
 
